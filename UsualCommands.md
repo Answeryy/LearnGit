@@ -1,5 +1,5 @@
 
-首次配置初始化相关
+# 首次配置初始化相关
 ## 创建本地仓库并初始化(以指定文件夹 D:\answer文件夹为例)
 cd /d D:\answer             切换至指定文件夹(change directory)
 mkdir LearnGit              创建文件夹
@@ -27,7 +27,7 @@ ssh-add ~/.ssh/id_rsa
 ## 复制公钥粘贴上传到github/Giteee等代码管理平台
 cat ~/.ssh/id_rsa.pub
 
-# 登录 GitHub → 点击右上角头像 → Settings，左侧菜单 → SSH and GPG keys → New SSH key,Title 随便填（如 "My Laptop"），Key 里粘贴刚复制的内容 → 保存
+## 登录 GitHub → 点击右上角头像 → Settings，左侧菜单 → SSH and GPG keys → New SSH key,Title 随便填（如 "My Laptop"），Key 里粘贴刚复制的内容 → 保存
 
 ## 测试链接
 ssh -T git@github.com
